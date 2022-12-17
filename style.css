@@ -22,8 +22,9 @@ li{
 }
 /* must css end */
 header{
-    background-color: #543529ef;
-    padding: 15px 0px;
+   padding: 20px 0px;
+   background-color: #5d423370;
+    
 }
 .header-logo{
     width: 30%;
@@ -53,6 +54,9 @@ header{
     text-transform: uppercase;
     transition: .5s;
     position: relative;
+}
+.header-menu ul li:first-child a{
+   color: #ae5700;
 }
 /* sub menu section */
 .header-menu ul li ul.sub-menu{
@@ -114,16 +118,18 @@ section{
     background: url(./allimage/ia_200000019.jpg), rgba(1, 0, 0, 0.628);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left ;
+    background-position: right center ;
     background-blend-mode: multiply;
     /* height: 358px; */
-    padding: 200px;
+    /* padding: 170px 0px 140px 151px; */
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    height: 600px;
 }
 .banner{
     width: 500px;
     padding: 26px 0px 0px 110px;
+    margin: 139px 0px 0px 265px;
 }
 .banner h1{
     font-size: 65px;
@@ -165,8 +171,7 @@ section{
 .banner .banner-btn:hover{
     background-color: #fff;
     color: black;
-   
-}
+
 /* service section */
 .service-section{
     background-color: #f8f8f8;
